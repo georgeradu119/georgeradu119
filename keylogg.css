@@ -1,0 +1,151 @@
+* {
+
+  
+
+}
+
+.container {
+
+    height: 100vh;
+
+    width: 100%;-
+
+    padding: 49px;
+
+}
+
+.form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    text-align: center;
+
+}
+
+fieldset {
+
+    margin: 7px;
+
+    padding: 6px 11px;
+
+    border-radius: 10px;
+
+    background: rgba(0,0,0,.9);
+
+    border-color: #f3f3f3;
+
+    width: 330px;
+
+}
+
+samp {
+
+    color: white;
+
+}
+
+a {
+
+    text-decoration: none;
+
+    color: white;
+
+}
+
+a:hover {  
+
+    color: red; /*Transforms the color to red when moused over */
+
+    text-decoration: underline; /*Makes a decoration for the link when moused over*/
+
+}
+
+
+
+label {
+
+    color: white;
+
+    position: relative;
+
+    right: 5.3em;
+
+} 
+
+label[for="email"] {
+
+    right: 6.0em!important;
+
+} 
+
+
+
+input[id*="a"] {  /* To style all inputs with an id value of a */
+
+    width: 240px;
+
+    padding: 12px 16px;
+
+    border: none;
+
+    border-bottom: 1.6px solid #3caf51;
+
+    margin: 7px 10px;
+
+    color: white;
+
+    background: rgba(0,0,0,.1);
+
+}
+
+input[id*="a"]:focus {  /* To style all inputs with an id value of a */
+
+    outline: none;
+
+    border-bottom: 1.6px solid red;
+
+    -webkit-transition: color 0.7s;
+
+    transition: 0.7s ease;
+
+} 
+
+
+
+button {
+
+    cursor: pointer;
+
+    width: 240px;
+
+    background: rgb(225,10,29);
+
+    border: 1px solid rgb(225,10,29);
+
+    padding: 10px 15px;
+
+    margin: 6px 10px;
+
+    color: white;
+
+    border-radius: 45px;
+
+}
+
+
+
+} 
+
+
+
+button:focus {
+
+    outline: none;
+
+}
